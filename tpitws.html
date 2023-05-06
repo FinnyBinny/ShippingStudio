@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+.button {
+  background-color: #4C4E52;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  color: #4C4E52;
+  font-size: 32px;
+  padding: 10px;
+  text-align: center;
+}
+
+.image-box {
+  width: 600px;
+  height: 450px;
+  border: 5px solid #4C4E52;
+}
+
+.image-container {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width:1800px) {
+  
+.image-container {
+    flex-direction:column; 
+}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1 class="header">Throw People Into The Water Simulator</h1>
+<style> input[type=button] { background-color: #4C4E52; border: none; color: white; padding: 15px 50px; text-align: center; text-decoration: none; font-size: 16px; border-radius: 25px; } </style>
+<head>
+    <script type="text/javascript">
+        function show_alert() {
+            alert("Coming Summer of 2023. 👀");
+        }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="show_alert()" value="Play" />
+</body>
+
+<div class="image-container">
+<div class="image-box">
+<img src="assets/img/image.png" alt="Image 1" width="600" height="450">
+</div>
+
+<div class="image-box">
+<img src="assets/img/image1.png" alt="Image 2" width="600" height="450">
+</div>
+
+<div class="image-box">
+<img src="assets/img/Room.png" alt="Image 3" width="600" height="450">
+</div>
+</div>
+</div>
+
+</body>
+</html>
